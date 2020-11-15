@@ -148,6 +148,10 @@ function lajosi_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+
+	
+	wp_enqueue_script( 'seachIcon', get_stylesheet_directory_uri() . '/js/searchClicked.js', array(), '1.0.0', true );
+	
 }
 add_action( 'wp_enqueue_scripts', 'lajosi_scripts' );
 

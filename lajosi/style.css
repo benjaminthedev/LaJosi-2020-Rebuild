@@ -743,10 +743,10 @@ textarea {
 	display: block;
 }
 
-.post,
+/* .post,
 .page {
 	margin: 0 0 1.5em;
-}
+} */
 
 .updated:not(.published) {
 	display: none;
@@ -1043,7 +1043,8 @@ ul.nav-menu li a {
 	font-weight: 300;
 }
 ul.nav-menu li a:hover {
-    text-decoration: underline;
+	text-decoration: underline;
+	color: #0AD8FC;
 }
 
 /* Logo */
@@ -1125,3 +1126,68 @@ img.custom-logo {
 }
 
 
+
+/* -- Le Footer Section -- */
+
+.site-footer{
+	background-color: #001D58;
+	padding:35px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* -- Image Logo Footer -- */
+
+img.footer__logo {
+    width: 10vw;
+    margin: 10px 0;
+}
+
+/* Social footer icon */
+
+.footer__social ul {
+	display: flex;
+	padding: 0;
+	margin: 20px 10px; 
+}
+
+.footer__social ul li{
+	list-style-type: none;
+	margin-right: 15px;	
+}
+
+.footer__social ul li a{
+	font-size: 32px;
+}
+
+.footer__social ul li i.fab {
+    color: #fff;
+}
+
+/* -- Footer Nav --  */
+
+.footer__nav ul{
+	display: flex;
+	margin: 40px 10px; 
+}
+
+.footer__nav ul li{
+	list-style-type: none;
+	margin-right: 25px;	
+}
+
+.footer__nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer__nav ul li a:hover{
+	text-decoration: underline;
+	color: #0AD8FC;
+}
+/* Copyright Footer */
+
+.footer__siteInfo * {
+	color: #fff;
+}

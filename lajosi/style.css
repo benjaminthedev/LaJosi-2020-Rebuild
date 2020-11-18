@@ -1073,23 +1073,66 @@ img.custom-logo {
 
 /* -- Home Page  ---    font-family: 'Roboto', sans-serif;   -- */
 
+.home .main__wrapper {
+    margin-top: -20px;
+}
+
+.main__background {
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.main__blackBox {
+    height: 40vh;
+    background: rgba(0, 0, 0, 0.55);
+    width: 54vw;
+    padding: 20px 70px;
+}
+
 .home__page header.entry-header {
     display: none;
 }
 
+.main__firstHeader {
+    color: #fff;
+	font-size: 44px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
 
-
-.banner__textBox h4 {
+.main__secondHeader {
     color: #fff;
 	font-size: 54px;
 	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
-.banner__textBox h2 {
+
+/* -- Main Btn -- */
+
+a.main__anchor {
+    text-decoration: none;
     color: #fff;
-	font-size: 54px;
+	font-size: 20px;
 	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	border-radius: 6px;
+	background: #0AD8FC;
+    border: none;
+	padding: 20px 40px;
+	cursor: pointer;
+	margin-top: 50px;
 }
+
+a.main__anchor:hover{
+	background: #070D81;
+}
+
 
 /* Three Boxes CTA */
 

@@ -28,7 +28,7 @@
 
 <div class="top__info">
 	<a href="mailto:someone@yoursite.com" class="top__email">
-		<img src="http://localhost:8888/lajosiNew/wp-content/uploads/2020/11/email.png" alt="Email Lajosi">
+		<img src="https://wordpress-293167-1596502.cloudwaysapps.com/wp-content/uploads/2020/11/email.png" alt="Email Lajosi">
 	</a>  
 		
 	<p>ENGINEERED FOR GOLF, MELBOURNE, AUSTRALIA</p>
@@ -37,13 +37,13 @@
 	<div class="top__iconsWrapper">
 		<ul class="top__icons">
 			<li>
-				<a href="#"><img src="http://localhost:8888/lajosiNew/wp-content/uploads/2020/11/magnifier.png" alt="search lasjoi website" class="top__searchClicked"></a>
+				<a href="#"><img src="https://wordpress-293167-1596502.cloudwaysapps.com/wp-content/uploads/2020/11/magnifier.png" alt="search lasjoi website" class="top__searchClicked"></a>
 			</li>
 			<li>
-				<a href="#"><img src="http://localhost:8888/lajosiNew/wp-content/uploads/2020/11/account.png" alt="your lasjoi account"></a>
+				<a href="#"><img src="https://wordpress-293167-1596502.cloudwaysapps.com/wp-content/uploads/2020/11/account.png" alt="your lasjoi account"></a>
 			</li>
 			<li>
-				<a href="#"><img src="http://localhost:8888/lajosiNew/wp-content/uploads/2020/11/shopping-cart.png" alt="lasjoi shopping cart"></a>
+				<a href="#"><img src="https://wordpress-293167-1596502.cloudwaysapps.com/wp-content/uploads/2020/11/shopping-cart.png" alt="lasjoi shopping cart"></a>
 			</li>
 		</ul>
 	</div>

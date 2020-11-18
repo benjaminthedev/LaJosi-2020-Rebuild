@@ -1031,7 +1031,8 @@ header#masthead {
 
 ul.nav-menu {
     display: flex;
-	margin-top: 30px;
+	margin-top: 20px;
+	transition-duration: 0.5s;
 }
 ul.nav-menu li {
 	margin: 10px 15px;
@@ -1046,6 +1047,14 @@ ul.nav-menu li a:hover {
 	text-decoration: underline;
 	color: #0AD8FC;
 }
+
+/* Sub Menu */
+ul.nav-menu	 ul.sub-menu {
+    display: flex !important;
+	flex-direction: column !important;
+	background: rgba(7, 13, 129, 0.85) !important;
+	transition-duration: 0.5s;
+}
 /* Logo */
 
 img.custom-logo {
@@ -1059,7 +1068,8 @@ img.custom-logo {
 	height: 0px;
 	visibility: hidden;
 	opacity: 0;
-    transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+	/* transition: visibility 0s linear 0.33s, opacity 0.33s linear; */
+	transition-duration: 0.5s;
 }
 
 .top__search.showSearch {
@@ -1102,16 +1112,27 @@ img.custom-logo {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
+	margin-top: 50px;
 }
 
 .main__secondHeader {
     color: #fff;
-	font-size: 54px;
+	font-size: 46px;
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
 }
 
+
+/* underline Hidden for now */
+.main__underlineWrap {
+    margin-bottom: 50px;
+}
+img.main__underline {
+    width: 20%;
+    margin-bottom: 30px;
+    display: none;
+}
 
 /* -- Main Btn -- */
 
@@ -1127,6 +1148,7 @@ a.main__anchor {
 	padding: 20px 40px;
 	cursor: pointer;
 	margin-top: 50px;
+	transition-duration: 0.5s;
 }
 
 a.main__anchor:hover{
@@ -1142,13 +1164,25 @@ a.main__anchor:hover{
 	justify-content: center;
 }
 
+
+
+a.box__a {
+	color: #fff;
+	text-decoration: none;
+}
+
  
 .box__one,
+.box__two,
 .box__three{
 	background-color: #070D81;
 	width: 10vw;
 	height: 17vh;
 	text-align: center;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
 }
 .box__one{
 	border-bottom-left-radius: 25%;
@@ -1162,10 +1196,41 @@ a.main__anchor:hover{
 	background-color: #0AD8FC;
 	width: 16vw;
 	height: 20vh;
-	text-align: center;
 	border-bottom-left-radius: 25%;
 	border-bottom-right-radius: 25%;
 }
+.box__two a.box__a {
+    margin-top: -15px;
+}
+
+/* Quote Home Page */
+
+.quote__wrapper {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	margin: 50px 0;
+}
+
+.quote__content {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.quote__content p {
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
 

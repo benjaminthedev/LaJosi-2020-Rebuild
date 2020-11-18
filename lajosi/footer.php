@@ -14,7 +14,7 @@
 	<footer class="site-footer">
 
 	<div class="footer__logoWrapper">
-		<img src="http://localhost:8888/lajosiNew/wp-content/uploads/2020/11/Lajosi-Sign_footer.png" alt="Lajosi Footer Logo" class="footer__logo">
+		<img src="https://wordpress-293167-1596502.cloudwaysapps.com/wp-content/uploads/2020/11/Lajosi-Sign_footer.png" alt="Lajosi Footer Logo" class="footer__logo">
 	</div>
 
 	<div class="footer__social">

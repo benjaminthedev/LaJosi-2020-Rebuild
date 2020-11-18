@@ -406,6 +406,8 @@ textarea {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 	font-size: 1rem;
 	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 h1,
@@ -415,10 +417,14 @@ h4,
 h5,
 h6 {
 	clear: both;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
 }
 
 p {
 	margin-bottom: 1.5em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 dfn,
@@ -426,19 +432,26 @@ cite,
 em,
 i {
 	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 blockquote {
 	margin: 0 1.5em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 address {
 	margin: 0 0 1.5em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 pre {
 	background: #eee;
-	font-family: "Courier 10 Pitch", courier, monospace;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 	line-height: 1.6;
 	margin-bottom: 1.6em;
 	max-width: 100%;
@@ -457,16 +470,22 @@ abbr,
 acronym {
 	border-bottom: 1px dotted #666;
 	cursor: help;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 mark,
 ins {
 	background: #fff9c0;
 	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 big {
 	font-size: 125%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
 }
 
 /* Elements
@@ -1227,21 +1246,87 @@ a.box__a {
 
 
 
+/* Second Home Page Background */
+
+.image__background {
+    height: 70vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+    display: flex;
+    align-items: flex-start;
+	flex-direction: column;
+    justify-content: center;
+}
+ 
+.backBackground__wrap{
+	width: 100vw;
+}
+
+.main__blackBoxSecond {
+    width: 54vw;
+    display: flex;
+    background: green;
+	padding:50px;
+	background: rgba(0, 0, 0, 0.55);
+	height: 30vh;
+}
+
+.image__bannerContentWrap h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.image__bannerContentWrap {
+    display: flex;
+	flex-direction: column;
+	padding: 40px;
+}
+
+.image__firstHeader {
+    color: #fff;
+	font-size: 44px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	margin: 0;
+	padding: 0;
+	margin-top: 50px;
+}
+
+.image__secondHeader{
+    color: #fff;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.button__wrapper {
+    height: 4vh;
+    margin-top: 30px;
+    margin-left: 50px;
+}
 
 
+/* Le Instagram Section */
 
-
+.instagram__wrapper{
+	background: #001D58;
+	padding: 50px 0;
+}
 
 
 
 /* -- Le Footer Section -- */
 
 .site-footer{
+	background-image: url("https://wordpress-293167-1596502.cloudwaysapps.com/wp-content/uploads/2020/11/Footerlizards-1.png");
 	background-color: #001D58;
 	padding:35px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	    background-position: 10% 0%;
+
 }
 
 /* -- Image Logo Footer -- */
@@ -1250,6 +1335,18 @@ img.footer__logo {
     width: 10vw;
     margin: 10px 0;
 }
+
+
+
+.post-type-archive-product aside#secondary{
+    display: none;
+}
+
+nav.woocommerce-breadcrumb {
+    display: none;
+}
+
+
 
 /* Social footer icon */
 

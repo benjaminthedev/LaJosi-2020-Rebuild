@@ -60,31 +60,37 @@ get_header();
 
 	<div class="image__bannerWrapper">
 		<div class="image__background" style="background-image: url(<?php the_field('second_slider_background'); ?>)";>
-			<div class="main__blackBox">
-
-					<div class="icon__countryWrap">
-						<img src="<?php the_field('icon') ?>" alt="Lajosi Golfing">
-					</div>
-
-					<div class="image__bannerContentWrap">
-
-						<h3 class="image__firstHeader"><?php the_field('second_slider_first_text'); ?></h3>
-						<h3 class=image__secondHeader"><?php the_field('second_slider_second_text'); ?></h3>
-
-						<div class="main__underlineWrap">
-							<img src="https://wordpress-293167-1596502.cloudwaysapps.com/wp-content/uploads/2020/11/underline.png" alt="Lajosi Golfing" class="main__underline">
+			<div class="backBackground__wrap">
+				<div class="main__blackBoxSecond">
+						<div class="icon__countryWrap">
+							<img src="<?php the_field('icon') ?>" alt="Lajosi Golfing">
 						</div>
 
-						<a href="<?php the_field('url'); ?>" class="main__anchor"><?php the_field('button_text'); ?></a>
+						<div class="image__bannerContentWrap">
 
-					</div>	
-					
+							<h3 class="image__firstHeader"><?php the_field('second_slider_first_text'); ?></h3>
+							<h3 class="image__secondHeader"><?php the_field('second_slider_second_text'); ?></h3>
+
+							<div class="main__underlineWrap">
+								<img src="https://wordpress-293167-1596502.cloudwaysapps.com/wp-content/uploads/2020/11/underline.png" alt="Lajosi Golfing" class="main__underline">
+							</div>
+
+						</div>
+				</div>
 			</div>
+
+				<div class="button__wrapper">
+					<a href="<?php the_field('second_slider_btn_url'); ?>" class="main__anchor"><?php the_field('second_slider_btn_text'); ?></a>
+				</div>
 		</div>
 	</div>
 
 
-	
+	<div class="instagram__wrapper">
+
+		<?php the_field('ig_section'); ?>
+
+	</div>
 
 
 
